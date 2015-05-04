@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" 
+tools:context="lesson.android.yangchang.ls4_hw.Tic_tac_toa" android:layout_width="match_parent" 
+android:layout_height="match_parent" android:gravity="center_horizontal" 
+android:orientation="vertical" android:id="@+id/tttMainLinearLayout" android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tttTitleLinearLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/Tic_Tac_Toa"
+            android:id="@+id/fahrenheitTextView"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/tttTableLayout">
+
+        <TableRow>
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button1"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button2"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button3"
+                android:layout_height="80dp"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button4"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button5"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button6"
+                android:layout_height="80dp"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button7"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button8"
+                android:layout_height="80dp"
+                />
+            <Button
+                android:text="@string/click_me"
+                android:id="@+id/ttt_button9"
+                android:layout_height="80dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
