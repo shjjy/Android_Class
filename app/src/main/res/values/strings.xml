@@ -13,4 +13,12 @@
     <string name="title_activity_tic_tac_toa">Tic_tac_toa</string>
     <string name="Tic_Tac_Toa">井字遊戲</string>
     <string name="click_me">點我</string>
+    <string name="title_activity_data_monitor">DataMonitor</string>
+    <string name="title_activity_main_graph">MainGraphActivity</string>
+    <string name="title_activity_main_nine_pwd">MainNinePwdActivity</string>
+    <string name="title_activity_set_pwd">SetPwdActivity</string>
+    <string name="title_activity_activity4__draw">Activity4_Draw</string>
+    <string name="title_activity_change">ChangeActivity</string>
+    <string name="title_activity_serv">ServActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
 </resources>

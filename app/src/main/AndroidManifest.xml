@@ -3,6 +3,7 @@
     package="lesson.android.yangchang.demo" >
 
     <application
+        android:name=".YangApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,6 +20,49 @@
             android:name="lesson.android.yangchang.ls4_hw.Tic_tac_toa"
             android:label="@string/title_activity_tic_tac_toa" >
         </activity>
+        <activity
+            android:name="lesson.android.yangchang.lesson5.DataMonitor"
+            android:label="@string/title_activity_data_monitor" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.lesson6.MainGraphActivity"
+            android:label="@string/title_activity_main_graph" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls6_hw.MainHW6Activity"
+            android:label="@string/title_activity_main_nine_pwd" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls6_hw.SetPwdActivity"
+            android:label="@string/title_activity_set_pwd" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls6_hw.Activity4_Draw"
+            android:label="@string/title_activity_activity4__draw" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls7.ChangeActivity"
+            android:label="@string/title_activity_change" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls7.ChangeActivity2"
+            android:label="@string/title_activity_change" >
+        </activity>
+        <activity
+            android:name="lesson.android.yangchang.ls8.serv.ServActivity"
+            android:label="@string/title_activity_serv" >
+        </activity>
+
+        <service android:name="lesson.android.yangchang.ls8.serv.MyService" >
+        </service>
+
+        <activity
+            android:name="lesson.android.yangchang.ls9.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
